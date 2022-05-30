@@ -16,5 +16,8 @@
     "url": "https://github.com/a-silanov/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/a-silanov/frontend-project-lvl1#readme",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
