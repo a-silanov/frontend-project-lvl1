@@ -1,10 +1,12 @@
 import readlineSync from 'readline-sync';
 
+const greeting = 'Welcome to the Brain Games!';
 const regulation = 'Answer "yes" if the number is even, otherwise answer "no".';
 const randomNumber = () => Math.floor(Math.random() * 1000);
 const correct = 'Correct!';
 
 const isEvenNumber = () => {
+  console.log(greeting);
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log(regulation);
