@@ -5,6 +5,7 @@ const randomNumber = () => Math.floor(Math.random() * 100);
 const correct = 'Correct!';
 const operators = ['+', '-', '*'];
 const randomOperator = (array) => array[Math.floor(Math.random() * array.length)];
+const regulation = 'What is the result of the expression?';
 const calculate = (firstNumber, secondNumber, operator) => {
   switch (operator) {
     case '+':
@@ -22,6 +23,7 @@ const startGame = () => {
   console.log(greeting);
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
+  console.log(regulation);
   let countOfAttempts = 3;
   while (countOfAttempts > 0) {
     const firstNumber = randomNumber();
@@ -40,6 +42,7 @@ const startGame = () => {
       return;
     }
   }
+  console.log(`Congratulations, ${name}!`);
 };
 
 export default startGame;
