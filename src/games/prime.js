@@ -12,7 +12,7 @@ const isPrime = (number) => {
 };
 
 const primeNumber = () => {
-  const randomNumber = getRandomNumber(0, 100);
+  const randomNumber = getRandomNumber(2, 100);
   const primeQustion = String(randomNumber);
   const correctResult = isPrime(randomNumber) ? 'yes' : 'no';
   return [primeQustion, correctResult];

@@ -18,8 +18,8 @@ const calculate = (firstNumber, secondNumber, operator) => {
 };
 
 const calcGame = () => {
-  const firstNumber = getRandomNumber();
-  const secondNumber = getRandomNumber();
+  const firstNumber = getRandomNumber(0, 100);
+  const secondNumber = getRandomNumber(0, 50);
   const operator = randomOperator(operators);
   const calcQuestion = `${firstNumber} ${operator} ${secondNumber}`;
   const correctResult = String(calculate(firstNumber, secondNumber, operator));

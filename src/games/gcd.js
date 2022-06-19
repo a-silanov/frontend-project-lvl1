@@ -10,8 +10,8 @@ const getGcd = (number1, number2) => {
 };
 
 const getGreatestCommonDivisor = () => {
-  const firstNumber = getRandomNumber();
-  const secondNumber = getRandomNumber();
+  const firstNumber = getRandomNumber(0, 20);
+  const secondNumber = getRandomNumber(0, 20);
   const divisorQuestion = `${firstNumber} ${secondNumber}`;
   const correctResult = String(getGcd(firstNumber, secondNumber));
   return [divisorQuestion, correctResult];
