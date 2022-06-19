@@ -16,3 +16,8 @@
 пользователю показывается два случайных числа. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 Запуск игры: make brain-gcd
 [![asciicast](https://asciinema.org/a/enLTUHX0fFb82N6SnlxTvea7e.png)](https://asciinema.org/a/enLTUHX0fFb82N6SnlxTvea7e)
+
+Игра "Арифметическая прогрессия"
+Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+Запуск игры: make brain-progression
+[![asciicast](https://asciinema.org/a/TAUkFU6dtMzHWIpSfKkViRhDp.png)](https://asciinema.org/a/TAUkFU6dtMzHWIpSfKkViRhDp)
