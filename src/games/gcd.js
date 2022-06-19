@@ -13,7 +13,6 @@ const getGreatestCommonDivisor = () => {
   const firstNumber = getRandomNumber();
   const secondNumber = getRandomNumber();
   const divisorQuestion = `${firstNumber} ${secondNumber}`;
-  console.log(divisorQuestion);
   const correctResult = String(getGcd(firstNumber, secondNumber));
   return [divisorQuestion, correctResult];
 };
