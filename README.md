@@ -21,3 +21,7 @@
 Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 Запуск игры: make brain-progression
 [![asciicast](https://asciinema.org/a/TAUkFU6dtMzHWIpSfKkViRhDp.png)](https://asciinema.org/a/TAUkFU6dtMzHWIpSfKkViRhDp)
+
+Игра "Простое ли число?"
+Запуск игры: make brain-prime
+[![asciicast](https://asciinema.org/a/3RIy0NQCEu4PvXu56jSKgokRC.png)](https://asciinema.org/a/3RIy0NQCEu4PvXu56jSKgokRC)
