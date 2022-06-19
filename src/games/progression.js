@@ -12,7 +12,7 @@ const createProgression = (size, step, begin) => {
   return progression;
 };
 const generateGame = () => {
-  const size = 10;
+  const size = getRandomNumber(5, 10);
   const step = getRandomNumber(1, 10);
   const firstNumber = getRandomNumber(0, 10);
   const arithmeticProgression = createProgression(size, step, firstNumber);
