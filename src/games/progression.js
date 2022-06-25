@@ -1,7 +1,7 @@
 import rule from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const regulation = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?';
 const createProgression = (size, step, begin) => {
   let progression = [begin];
   let newElement;
@@ -24,7 +24,7 @@ const generateGame = () => {
 };
 
 const startGame = () => {
-  rule(regulation, generateGame);
+  rule(description, generateGame);
 };
 
 export default startGame;

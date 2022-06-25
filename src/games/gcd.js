@@ -1,7 +1,7 @@
 import rule from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const regulation = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (number1, number2) => {
   if (!number2) {
@@ -18,7 +18,7 @@ const getGreatestCommonDivisor = () => {
 };
 
 const startGame = () => {
-  rule(regulation, getGreatestCommonDivisor);
+  rule(description, getGreatestCommonDivisor);
 };
 
 export default startGame;

@@ -1,9 +1,9 @@
 import rule from '../index.js';
 import getRandomNumber from '../utils.js';
 
+const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 const randomOperator = (array) => array[Math.floor(Math.random() * array.length)];
-const regulation = 'What is the result of the expression?';
 const calculate = (firstNumber, secondNumber, operator) => {
   switch (operator) {
     case '+':
@@ -13,7 +13,7 @@ const calculate = (firstNumber, secondNumber, operator) => {
     case '*':
       return firstNumber * secondNumber;
     default:
-      return 'Hello';
+      throw new Error(`Unnavailable operator - ${operator}`);
   }
 };
 
@@ -27,7 +27,7 @@ const calcGame = () => {
 };
 
 const startGame = () => {
-  rule(regulation, calcGame);
+  rule(description, calcGame);
 };
 
 export default startGame;

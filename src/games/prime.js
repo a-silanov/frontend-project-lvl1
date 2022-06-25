@@ -1,7 +1,7 @@
 import rule from '../index.js';
 import getRandomNumber from '../utils.js';
 
-const regulation = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (number) => {
   for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
@@ -19,7 +19,7 @@ const primeNumber = () => {
 };
 
 const startGame = () => {
-  rule(regulation, primeNumber);
+  rule(description, primeNumber);
 };
 
 export default startGame;
